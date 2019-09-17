@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CVKevin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="summary">Perkenalkan nama saya Kevin Surya Augusto, panggil saja saya Kevin. Saya lahir di Jakarta pada tanggal 27 agustus 2002. Saya anak pertama dari dua bersaudara. Saya sekarang tinggal di Depok, Bukit Cengkeh 1 JL.Medan Blok B2 No.3. Agama saya adalah islam. Tinggi badan saya 170 cm dan berat badan saya 60kg. Mengenai kepribadian, saya memiliki sifat yang sedikit pemalu, ramah, dan baik karena saya senang membantu teman dan senang bergaul. Universitas yang ingin saya dapatkan adalah ITB (Institut Teknologi Bandung) dan inging mengambil jurusan Teknik Informatika.</string>
+</resources>

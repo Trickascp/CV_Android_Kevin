@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment2"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/sd"
+                    android:id="@+id/sd1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="SDN Tugu 9"
+                    android:layout_toRightOf="@+id/sd1"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/sd1_tit"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Jl. Tunas Bakti Raya No.2, Tugu, Kec. Cimanggis, Kota Depok, Jawa Barat 16451"
+                    android:layout_toRightOf="@+id/sd1"
+                    android:layout_below="@id/sd1_tit"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="15dp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/sd"
+                    android:id="@+id/sd2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="SDN Mekar Jaya 31"
+                    android:layout_toRightOf="@+id/sd2"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/sd2_tit"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Jl. Progo, Bakti Jaya, Kec. Sukmajaya, Kota Depok, Jawa Barat 16418"
+                    android:layout_toRightOf="@+id/sd2"
+                    android:layout_below="@id/sd2_tit"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="15dp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/smp"
+                    android:id="@+id/smp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="SMP Yaspen Tugu Ibu 1"
+                    android:layout_toRightOf="@+id/smp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/smp_tit"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Jl. Sentosa Raya No.2, Mekar Jaya, Kec. Sukmajaya, Kota Depok, Jawa Barat 16411"
+                    android:layout_toRightOf="@+id/smp"
+                    android:layout_below="@id/smp_tit"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="15dp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/tarun_bhakti"
+                    android:id="@+id/smk"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="SMK Taruna Bhakti"
+                    android:layout_toRightOf="@+id/smk"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="15dp"
+                    android:id="@+id/smk_tit"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Jln. Raya Pekapuran 16953 Depok"
+                    android:layout_toRightOf="@+id/smk"
+                    android:layout_below="@id/smk_tit"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="15dp"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
